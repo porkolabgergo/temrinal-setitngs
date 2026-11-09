@@ -1,0 +1,2 @@
+# temrinal-setitngs
+
