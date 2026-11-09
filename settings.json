@@ -1,0 +1,501 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "id": "User.resizeRight"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitRight"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "id": "User.resizeLeft"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "left",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitLeft"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "id": "User.resizeDown"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitDown"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "id": "User.resizeUp"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "up",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitUp"
+        },
+        {
+            "command": "openTabRenamer",
+            "id": "User.renameTab"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.focusLeft"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "id": "User.focusRight"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "id": "User.focusUp"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "id": "User.focusDown"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "previous"
+            },
+            "id": "User.focusLast"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "left"
+            },
+            "id": "User.swapLeft"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "right"
+            },
+            "id": "User.swapRight"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "up"
+            },
+            "id": "User.swapUp"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "down"
+            },
+            "id": "User.swapDown"
+        },
+        {
+            "command": "togglePaneZoom",
+            "id": "User.zoomPane"
+        },
+        {
+            "command": "closePane",
+            "id": "User.closePane"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "id": "User.newTab"
+        },
+        {
+            "command": 
+            {
+                "action": "nextTab"
+            },
+            "id": "User.nextTab"
+        },
+        {
+            "command": 
+            {
+                "action": "prevTab"
+            },
+            "id": "User.prevTab"
+        },
+        {
+            "command": "tabSearch",
+            "id": "User.tabSearch"
+        },
+        {
+            "command": "markMode",
+            "id": "User.markMode"
+        },
+        {
+            "command": 
+            {
+                "action": "scrollToMark",
+                "direction": "previous"
+            },
+            "id": "User.prevPrompt"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "scrollToMark",
+                "direction": "next"
+            },
+            "id": "User.nextPrompt"
+        },
+        {
+            "command": "toggleReadOnlyMode",
+            "id": "User.readOnly"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy"
+        },
+        {
+            "command": 
+            {
+                "action": "globalSummon",
+                "dropdownDuration": 150,
+                "name": "_quake"
+            },
+            "id": "User.quake"
+        }
+    ],
+    "alwaysShowTabs": true,
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "firstWindowPreference": "persistedWindowLayout",
+    "initialCols": 140,
+    "initialRows": 38,
+    "keybindings": 
+    [
+        {
+            "id": "User.closePane",
+            "keys": "alt+x"
+        },
+        {
+            "id": "User.splitUp",
+            "keys": "ctrl+alt+up"
+        },
+        {
+            "id": "User.splitRight",
+            "keys": "ctrl+alt+right"
+        },
+        {
+            "id": "User.resizeRight",
+            "keys": "alt+shift+right"
+        },
+        {
+            "id": "User.splitLeft",
+            "keys": "ctrl+alt+left"
+        },
+        {
+            "id": "User.splitDown",
+            "keys": "ctrl+alt+down"
+        },
+        {
+            "id": "User.quake",
+            "keys": "win+ctrl+alt+7"
+        },
+        {
+            "id": "User.prevPrompt",
+            "keys": "ctrl+up"
+        },
+        {
+            "id": "User.swapDown",
+            "keys": "ctrl+alt+shift+down"
+        },
+        {
+            "id": "User.resizeLeft",
+            "keys": "alt+shift+left"
+        },
+        {
+            "id": "User.resizeUp",
+            "keys": "alt+shift+up"
+        },
+        {
+            "id": "User.markMode",
+            "keys": "ctrl+alt+f"
+        },
+        {
+            "id": "User.resizeDown",
+            "keys": "alt+shift+down"
+        },
+        {
+            "id": "User.focusLeft",
+            "keys": "alt+left"
+        },
+        {
+            "id": "User.focusRight",
+            "keys": "alt+right"
+        },
+        {
+            "id": "User.focusUp",
+            "keys": "alt+up"
+        },
+        {
+            "id": "User.focusDown",
+            "keys": "alt+down"
+        },
+        {
+            "id": "User.focusLast",
+            "keys": "ctrl+alt+comma"
+        },
+        {
+            "id": "User.tabSearch",
+            "keys": "alt+w"
+        },
+        {
+            "id": "User.zoomPane",
+            "keys": "alt+z"
+        },
+        {
+            "id": "User.swapLeft",
+            "keys": "ctrl+alt+shift+left"
+        },
+        {
+            "id": "User.swapRight",
+            "keys": "ctrl+alt+shift+right"
+        },
+        {
+            "id": "User.swapUp",
+            "keys": "ctrl+alt+shift+up"
+        },
+        {
+            "id": "User.newTab",
+            "keys": "alt+t"
+        },
+        {
+            "id": "User.nextTab",
+            "keys": "alt+n"
+        },
+        {
+            "id": "User.prevTab",
+            "keys": "alt+p"
+        },
+        {
+            "id": "User.renameTab",
+            "keys": "alt+r"
+        },
+        {
+            "id": "User.nextPrompt",
+            "keys": "ctrl+down"
+        },
+        {
+            "id": "User.readOnly",
+            "keys": "alt+shift+l"
+        },
+        {
+            "id": "User.copy",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+minus"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+plus"
+        }
+    ],
+    "launchMode": "default",
+    "minimizeToNotificationArea": false,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "newTabPosition": "afterCurrentTab",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "adjustIndistinguishableColors": "indexed",
+            "antialiasingMode": "cleartype",
+            "autoMarkPrompts": true,
+            "bellStyle": "none",
+            "closeOnExit": "graceful",
+            "colorScheme": "Kanagawa Dragon",
+            "cursorHeight": 25,
+            "cursorShape": "bar",
+            "font": 
+            {
+                "cellHeight": "1.2",
+                "face": "JetBrains Mono",
+                "features": 
+                {
+                    "calt": 1,
+                    "liga": 1
+                },
+                "size": 11,
+                "weight": "normal"
+            },
+            "historySize": 50000,
+            "intenseTextStyle": "bright",
+            "opacity": 85,
+            "padding": "10, 8, 10, 8",
+            "scrollbarState": "hidden",
+            "showMarksOnScrollbar": true,
+            "snapOnInput": true,
+            "startingDirectory": "%USERPROFILE%",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell 5.1"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": true,
+                "name": "Command Prompt"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#141313",
+            "black": "#0D0C0C",
+            "blue": "#8BA4B0",
+            "brightBlack": "#737070",
+            "brightBlue": "#9DB4BF",
+            "brightCyan": "#9FB5B3",
+            "brightGreen": "#87A987",
+            "brightPurple": "#B3A3B4",
+            "brightRed": "#E46876",
+            "brightWhite": "#DCD7BA",
+            "brightYellow": "#E6C384",
+            "cursorColor": "#C8C093",
+            "cyan": "#8EA4A2",
+            "foreground": "#C5C9C5",
+            "green": "#8A9A7B",
+            "name": "Kanagawa Dragon",
+            "purple": "#A292A3",
+            "red": "#C4746E",
+            "selectionBackground": "#3A3836",
+            "white": "#C8C093",
+            "yellow": "#C4B28A"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": true,
+    "snapToGridOnResize": true,
+    "tabWidthMode": "titleLength",
+    "theme": "Kanagawa",
+    "themes": 
+    [
+        {
+            "name": "Kanagawa",
+            "tab": 
+            {
+                "background": "#141313FF",
+                "iconStyle": "default",
+                "showCloseButton": "hover",
+                "unfocusedBackground": "#0D0C0CFF"
+            },
+            "tabRow": 
+            {
+                "background": "#0D0C0CE6",
+                "unfocusedBackground": "#0D0C0CE6"
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "experimental.rainbowFrame": false,
+                "frame": null,
+                "unfocusedFrame": null,
+                "useMica": false
+            }
+        }
+    ],
+    "trimBlockSelection": true,
+    "trimPaste": true,
+    "useAcrylicInTabRow": true,
+    "warning.confirmCloseAllTabs": true,
+    "warning.largePaste": true,
+    "warning.multiLinePaste": "automatic",
+    "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502"
+}
